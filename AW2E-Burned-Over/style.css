@@ -18,6 +18,10 @@ li.inline {
     list-style: inline;
 }
 
+label.sheet-smallfont {
+    font-size: 1em;
+}
+
 .charsheet .sheet-maindiv {
     background: white;
 }
@@ -27,17 +31,23 @@ li.inline {
 	margin-left: 5px;
 	font-family: 'Special Elite', 'Helvetica', sans-serif;
 	font-weight: normal;
+	color: var(--dark-surface1);
 }
+
 .charsheet .sheet-maindiv .sheet-col label {
 	display: inline-block;
-	width: auto;
+    width: auto;
+	color: var(--dark-surface1);
 }
+
 .charsheet .sheet-maindiv .sheet-col label.sheet-harm {
 	padding-right: 0;
 }
+
 .charsheet .sheet-maindiv label.sheet-name {
 	font-weight: 400;
 	font-size: 1.5em;
+	color: var(--dark-surface1);
 }
 
 .charsheet .sheet-maindiv .sheet-col .sheet-section-title {
@@ -53,6 +63,7 @@ li.inline {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 }
+
 .charsheet .sheet-maindiv .sheet-col.sheet-even .sheet-section-title {
 	background: url('http://i.imgur.com/RNob7Yh.jpg') repeat-x left center transparent;
 }
@@ -65,12 +76,14 @@ li.inline {
 
 .charsheet label.sheet-improvement {
 	font-size: 1em;
+	color: var(--dark-surface1);
 }
 
 .charsheet label.sheet-lock {
 	width: auto;
 	font-size: 12px;
 	font-weight: 400;
+	color: var(--dark-surface1);
 }
 
 .charsheet .sheet-attr-box {
@@ -100,6 +113,7 @@ label.sheet-cool.sheet-attr {
 	display: inline-block;
 	float: left;
 	line-height: 32px;
+	color: var(--dark-surface1);
 }
 
 input.sheet-attr {
@@ -120,7 +134,7 @@ input.sheet-attr {
 	padding: 8px 4px;
 	background: #EFEFEF;
 	margin-top: 0;
-	line-height: 16px;
+    line-height: 16px;
 }
 .sheet-highlight {
 	font-size: 0.85em;
@@ -156,10 +170,11 @@ input[name="attr_movedesc"]{
 .repitem textarea,
 .sheet-box textarea {
 	height: 32px;
-	box-sizing: border-box;
+	box-sizing: content-box;
 }
 
-.largedialog textarea {
+textarea.sheet-free-form-text {
+    width: 95%;
 	height: 80px;
 }
 
@@ -210,8 +225,6 @@ input[name="attr_movedesc"]{
 .sheet-classcol > .sheet-class:checked + label {
 	display: inline-block;
 }
-
-input.sheet-showhide:checked ~ .sheet-subbox {display: none;}
 
 .sheet-isBrain-Picker:checked ~ .sheet-brain-picker,
 .sheet-isGearcutter:checked ~ .sheet-gearcutter,
@@ -524,8 +537,8 @@ input.sheet-showhide:checked ~ .sheet-subbox {display: none;}
     border-spacing: 0;
 }
 
-.sheet-rolltemplate-aw th {
-    color: rgb(0, 0, 0);
+.sheet-rolltemplate-aw th.sheet-rolltemplate-detail {
+    color: rgb(0, 0, 0) !important;
     padding: 15px 2px 2px 20px;
 	line-height: 1.2em;
 	font-size: 1.2em;
@@ -549,27 +562,27 @@ input.sheet-showhide:checked ~ .sheet-subbox {display: none;}
 .sheet-rolltemplate-aw .inlinerollresult.fullcrit,
 .sheet-rolltemplate-aw .inlinerollresult.fullfail,
 .sheet-rolltemplate-aw .inlinerollresult.importantroll{
-    background-color: transparent;
+    background-color: transparent !important;
     color: #000000;
-    border: none;
+    border: none !important;
 }
 
 .sheet-rolltemplate-aw .sheet-success .inlinerollresult,
 .sheet-rolltemplate-aw .sheet-success .inlinerollresult.fullcrit,
 .sheet-rolltemplate-aw .sheet-success .inlinerollresult.fullfail,
 .sheet-rolltemplate-aw .sheet-success .inlinerollresult.importantroll{
-    background-color: transparent;
+    background-color: transparent !important;
     color: #3FB315;
-    border: none;
+    border: none !important;
 }
 
 .sheet-rolltemplate-aw .sheet-failure .inlinerollresult,
 .sheet-rolltemplate-aw .sheet-failure .inlinerollresult.fullcrit,
 .sheet-rolltemplate-aw .sheet-failure .inlinerollresult.fullfail,
 .sheet-rolltemplate-aw .sheet-failure .inlinerollresult.importantroll{
-    background-color: transparent;
+    background-color: transparent !important;
     color: #B31515;
-    border: none;
+    border: none !important;
 }
 
 /* fix some display bugs */
