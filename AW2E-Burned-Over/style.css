@@ -185,12 +185,16 @@ textarea.sheet-free-form-text {
 }
 
 
+.sheet-bloodhound,
 .sheet-brain-picker,
 .sheet-gearcutter,
 .sheet-lawmaker,
+.sheet-harrier,
 .sheet-medic,
 .sheet-monarch,
+.sheet-no-one,
 .sheet-operator,
+.sheet-restless,
 .sheet-undaunted,
 .sheet-vigilant,
 .sheet-volatile,
@@ -226,12 +230,16 @@ textarea.sheet-free-form-text {
 	display: inline-block;
 }
 
+.sheet-isBloodhound:checked ~ .sheet-bloodhound,
 .sheet-isBrain-Picker:checked ~ .sheet-brain-picker,
 .sheet-isGearcutter:checked ~ .sheet-gearcutter,
 .sheet-isLawmaker:checked ~ .sheet-lawmaker,
+.sheet-isHarrier:checked ~ .sheet-harrier,
 .sheet-isMedic:checked ~ .sheet-medic,
 .sheet-isMonarch:checked ~ .sheet-monarch,
+.sheet-isNoOne:checked ~ .sheet-no-one,
 .sheet-isOperator:checked ~ .sheet-operator,
+.sheet-isRestless:checked ~ .sheet-restless,
 .sheet-isUndaunted:checked ~ .sheet-undaunted,
 .sheet-isVigilant:checked ~ .sheet-vigilant,
 .sheet-isVolatile:checked ~ .sheet-volatile,

@@ -35,111 +35,119 @@
 <!-- ========= SHEET ========= -->
 <div class='sheet-maindiv'>
     <input type="hidden" name="SHEETVERSION" value="1.0" />
-    <label class="sheet-name"><span data-i18n="name">Name</span>:</label>
+    <label class="sheet-name"><span data-i18n="name"></span></label>
     <input type="text" name="attr_character_name"/><br/>
-    <label class="sheet-name"><span data-i18n="first-impression">First Impression</span>:</label>
+    <label class="sheet-name"><span data-i18n="first-impression"></span></label>
     <input type="text" name="attr_first_impression"/><br/>
     <div class="lne">
-        <label class="sheet-name"><span data-i18n="playbook-archetype">Playbook</span>:</label>
+        <label class="sheet-name"><span data-i18n="playbook-archetype"></span></label>
         <input type='checkbox' name='attr_lock_class' class='sheet-lock'>
-        <label class="sheet-lock"><small><span data-i18n="lock-unlock-playbook">Lock/Unlock Playbook</span></small></label><br/>
+        <label class="sheet-lock"><small><span data-i18n="lock-unlock-playbook"></span></small></label><br/>
     </div>
     <input type='checkbox' name='attr_lock_class' class='sheet-lock' style="display: none;">
     <div class="sheet-classSelected" style=" width: 100%; padding-left: 20px;">
         <input type='checkbox' name='attr_lock_class' class='sheet-lock' style="display: none;">
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Brain-Picker'/><label><span data-i18n="brain-picker">Brain-Picker</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Gearcutter'/><label><span data-i18n="gearcutter">Gearcutter</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Lawmaker'/><label><span data-i18n="lawmaker">Lawmaker</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Medic'/><label><span data-i18n="medic">Medic</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Monarch'/><label><span data-i18n="monarch">Monarch</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Operator'/><label><span data-i18n="operator">Operator</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Undaunted'/><label><span data-i18n="undaunted">Undaunted</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Vigilant'/><label><span data-i18n="vigilant">Vigilant</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Volatile'/><label><span data-i18n="volatile">Volatile</span></label>
-        <input type="checkbox" name="attr_class" class="sheet-class" value='Weaponized'/><label><span data-i18n="weaponized">Weaponized</span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Bloodhound'/><label><span data-i18n="bloodhound"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Brain-Picker'/><label><span data-i18n="brain-picker"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Gearcutter'/><label><span data-i18n="gearcutter"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Harrier'/><label><span data-i18n="harrier"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Lawmaker'/><label><span data-i18n="lawmaker"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Medic'/><label><span data-i18n="medic"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Monarch'/><label><span data-i18n="monarch"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='No One'/><label><span data-i18n="no-one"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Operator'/><label><span data-i18n="operator"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Restless'/><label><span data-i18n="restless"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Undaunted'/><label><span data-i18n="undaunted"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Vigilant'/><label><span data-i18n="vigilant"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Volatile'/><label><span data-i18n="volatile"></span></label>
+        <input type="checkbox" name="attr_class" class="sheet-class" value='Weaponized'/><label><span data-i18n="weaponized"></span></label>
     </div>
     <div class="sheet-3colrow" style="padding-left: 20px;">
         <input type='checkbox' name='attr_lock_class' class='sheet-lock' style="display: none;">
         <div class="sheet-col sheet-classcol">
             <input type='checkbox' name='attr_lock_class' class='sheet-lock' style="display: none;">
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Brain-Picker'/><label><span data-i18n="brain-picker">Brain-Picker</span></label></div>
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Gearcutter'/><label><span data-i18n="gearcutter">Gearcutter</span></label></div>
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Lawmaker'/><label><span data-i18n="lawmaker">Lawmaker</span></div>
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Medic'/><label><span data-i18n="medic">Medic</span></label></div>
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Monarch'/><label><span data-i18n="monarch">Monarch</span></label></div>
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Operator'/><label><span data-i18n="operator">Operator</span></label></div>
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Undaunted'/><label><span data-i18n="undaunted">Undaunted</span></label></div>
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Vigilant'/><label><span data-i18n="vigilant">Vigilant</span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Bloodhound'/><label><span data-i18n="bloodhound"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Brain-Picker'/><label><span data-i18n="brain-picker"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Gearcutter'/><label><span data-i18n="gearcutter"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Harrier'/><label><span data-i18n="harrier"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Lawmaker'/><label><span data-i18n="lawmaker"></span></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Medic'/><label><span data-i18n="medic"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Monarch'/><label><span data-i18n="monarch"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='No One'/><label><span data-i18n="no-one"></span></label></div>
         </div>
         <div class="sheet-col sheet-classcol">
             <input type='checkbox' name='attr_lock_class' class='sheet-lock' style="display: none;">
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Volatile'/><label><span data-i18n="volatile">Volatile</span></label></div>
-            <div><input type="radio" name="attr_class" class="sheet-class" value='Weaponized'/><label><span data-i18n="weaponized">Weaponized</span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Operator'/><label><span data-i18n="operator"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Restless'/><label><span data-i18n="restless"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Undaunted'/><label><span data-i18n="undaunted"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Vigilant'/><label><span data-i18n="vigilant"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Volatile'/><label><span data-i18n="volatile"></span></label></div>
+            <div><input type="radio" name="attr_class" class="sheet-class" value='Weaponized'/><label><span data-i18n="weaponized"></span></label></div>
         </div>
     </div>
     <div class="sheet-3colrow">
         <div class="sheet-col odd"> <!-- COL1 STATS AND IMPROVEMENTS -->
-            <label class="sheet-class-moves sheet-section-title"><span data-i18n="stats">Stats</span>:</label>
+            <label class="sheet-class-moves sheet-section-title"><span data-i18n="stats"></span></label>
             <div class="sheet-attr-box">
-                <label class="sheet-aggro sheet-name"><span data-i18n="aggro">Aggro</span>:</label>
+                <label class="sheet-aggro sheet-name"><span data-i18n="aggro"></span>:</label>
                 <input type="number" name="attr_aggro" value="0" min="-3" max="3"  />
                 <input type="checkbox" name="attr_aggro-xp-1" />
                 <input type="checkbox" name="attr_aggro-xp-2" />
                 <input type="checkbox" name="attr_aggro-xp-3" />
                 <input type="checkbox" name="attr_aggro-xp-4" />
-                <label class="sheet-smallfont"><span data-i18n="mark-xp"> >> Mark XP</span></label>
+                <label class="sheet-smallfont"><span data-i18n="mark-xp"></span></label>
                 <div class="sheet-roll-box sheet-cf">
-                    <label class="sheet-buttonLbl"><span data-i18n="description-aggro">Confront someone<br/>Try something</span></label>
+                    <label class="sheet-buttonLbl"><span data-i18n="description-aggro"></span></label>
                     <button type='roll' value='&{template:aw} {{name=@{character_name}}} {{roll_name=^{aggro}}} {{roll_mod=@{aggro}}} {{result=[[2d6 + @{aggro} + ?{Forward |0|1}]]}}' name='roll_aggro' ></button>
                 </div>
             </div>
             <div class="sheet-attr-box">
-                <label class="sheet-cool sheet-name"><span data-i18n="cool">Cool</span>:</label>
+                <label class="sheet-cool sheet-name"><span data-i18n="cool"></span>:</label>
                 <input type="number" name="attr_cool" value="0" min="-3" max="3"  />
                 <input type="checkbox" name="attr_cool-xp-1" />
                 <input type="checkbox" name="attr_cool-xp-2" />
                 <input type="checkbox" name="attr_cool-xp-3" />
                 <input type="checkbox" name="attr_cool-xp-4" />
-                <label class="sheet-smallfont"><span data-i18n="mark-xp"> >> Mark XP</span></label>
+                <label class="sheet-smallfont"><span data-i18n="mark-xp"></span></label>
                 <div class="sheet-roll-box sheet-cf">
-                    <label class="sheet-buttonLbl"><span data-i18n="description-cool">Act under fire<br/>Sway someone</span></label>
+                    <label class="sheet-buttonLbl"><span data-i18n="description-cool"></span></label>
                     <button type='roll' value='&{template:aw} {{name=@{character_name}}} {{roll_name=^{cool}}} {{roll_mod=@{cool}}} {{result=[[2d6 + @{cool} + ?{Forward |0|1}]]}}' name='roll_cool'></button>
                 </div>
             </div>
             <div class="sheet-attr-box">
-                <label class="sheet-hard sheet-name"><span data-i18n="hard">Hard</span>:</label>
+                <label class="sheet-hard sheet-name"><span data-i18n="hard"></span>:</label>
                 <input type="number" name="attr_hard" value="0" min="-3" max="3"  />
                 <input type="checkbox" name="attr_hard-xp-1" />
                 <input type="checkbox" name="attr_hard-xp-2" />
                 <input type="checkbox" name="attr_hard-xp-3" />
                 <input type="checkbox" name="attr_hard-xp-4" />
-                <label class="sheet-smallfont"><span data-i18n="mark-xp"> >> Mark XP</span></label>
+                <label class="sheet-smallfont"><span data-i18n="mark-xp"></span></label>
                 <div class="sheet-roll-box sheet-cf">
-                    <label class="sheet-buttonLbl"><span data-i18n="description-hard">Attack someone<br/>Do battle</span></label>
+                    <label class="sheet-buttonLbl"><span data-i18n="description-hard"></span></label>
                     <button type='roll' value='&{template:aw} {{name=@{character_name}}} {{roll_name=^{hard}}} {{roll_mod=@{hard}}} {{result=[[2d6 + @{hard} + ?{Forward |0|1}]]}}' name='roll_hard' ></button>
                 </div>
             </div>
             <div class="sheet-attr-box">
-                <label class="sheet-sharp sheet-name"><span data-i18n="sharp">Sharp</span>:</label>
+                <label class="sheet-sharp sheet-name"><span data-i18n="sharp"></span>:</label>
                 <input type="number" name="attr_sharp" value="0" min="-3" max="3"  />
                 <input type="checkbox" name="attr_sharp-xp-1" />
                 <input type="checkbox" name="attr_sharp-xp-2" />
                 <input type="checkbox" name="attr_sharp-xp-3" />
                 <input type="checkbox" name="attr_sharp-xp-4" />
-                <label class="sheet-smallfont"><span data-i18n="mark-xp"> >> Mark XP</span></label>
+                <label class="sheet-smallfont"><span data-i18n="mark-xp"></span></label>
                 <div class="sheet-roll-box sheet-cf">
-                    <label class="sheet-buttonLbl"><span data-i18n="description-sharp">Read someone<br/>Read a situation</span></label>
+                    <label class="sheet-buttonLbl"><span data-i18n="description-sharp"></span></label>
                     <button type='roll' value='&{template:aw} {{name=@{character_name}}} {{roll_name=^{sharp}}} {{roll_mod=@{sharp}}} {{result=[[2d6 + @{sharp} + ?{Forward |0|1}]]}}' name='roll_sharp' ></button>
                 </div>
             </div>
             <div class="sheet-attr-box">
-                <label class="sheet-weird sheet-name"><span data-i18n="weird">Weird</span>:</label>
+                <label class="sheet-weird sheet-name"><span data-i18n="weird"></span>:</label>
                 <input type="number" name="attr_weird" value="0" min="-3" max="3"  />
                 <input type="checkbox" name="attr_weird-xp-1" />
                 <input type="checkbox" name="attr_weird-xp-2" />
                 <input type="checkbox" name="attr_weird-xp-3" />
                 <input type="checkbox" name="attr_weird-xp-4" />
-                <label class="sheet-smallfont"><span data-i18n="mark-xp"> >> Mark XP</span></label>
+                <label class="sheet-smallfont"><span data-i18n="mark-xp"></span></label>
                 <div class="sheet-roll-box sheet-cf">
                     <label class="sheet-buttonLbl"><span data-i18n="description-weird"></span></label>
                     <button type='roll' value='&{template:aw} {{name=@{character_name}}} {{roll_name=^{weird}}} {{roll_mod=@{weird}}} {{result=[[2d6 + @{weird} + ?{Forward |0|1}]]}}' name='roll_weird' ></button>
@@ -180,17 +188,42 @@
                 </div>
                 <label class="sheet-smallfont"><span data-i18n="phase1-add-improvements"></span></label>
                 <!-- Class Selected -->
+                <input type="checkbox" name="attr_class" class="sheet-isBloodhound" value='Bloodhound' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isBrain-Picker" value='Brain-Picker' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isGearcutter" value='Gearcutter' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isLawmaker" value='Lawmaker' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isHarrier" value='Harrier' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isMedic" value='Medic' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isMonarch" value='Monarch' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isNoOne" value='No One' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isOperator" value='Operator' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isRestless" value='Restless' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isUndaunted" value='Undaunted' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isVigilant" value='Vigilant' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isVolatile" value='Volatile' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isWeaponized" value='Weaponized' style="display: none;" />
                 <!-- End Class Selected -->
+                <div class="sheet-bloodhound">
+                    <ul>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-1" /> <span data-i18n="get-plus-aggro-max2"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-2" /> <span data-i18n="get-plus-cool-max2"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-3" /> <span data-i18n="get-plus-hard-max2"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-4" /> <span data-i18n="get-plus-weird-max2"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-5" /> <span data-i18n="get-move-bloodhound"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-6" /> <span data-i18n="get-move-bloodhound"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-7" /> <span data-i18n="establish-following-devotion"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-8" /> <span data-i18n="establish-observatory"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-9" /> <span data-i18n="get-move-other"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-10" /> <span data-i18n="get-move-other"></span></label></li>
+                        <li><hr></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="phase2-add-improvements"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-11" /> <span data-i18n="get-plus-stat-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-12" /> <span data-i18n="get-plus-stat-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-13" /> <span data-i18n="unlock-gamechanger"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-14" /> <span data-i18n="second-char"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_bloodhound-improvement-15" /> <span data-i18n="retire-char-safety"></span></label></li>
+                    </ul>
+                </div>
                 <div class="sheet-brain-picker">
                     <ul>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_brain-picker-improvement-1" /> <span data-i18n="get-plus-aggro-max2">Get +1Aggro (max Aggro+2).</span></label></li>
@@ -254,6 +287,27 @@
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_monarch-improvement-15" /> <span data-i18n="retire-char-safety">Retire your character to safety.</span></label></li>
                     </ul>
                 </div>
+                <div class="sheet-harrier">
+                    <ul>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-1" /> <span data-i18n="get-plus-aggro-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-2" /> <span data-i18n="get-plus-hard-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-3" /> <span data-i18n="get-plus-cool-max2"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-4" /> <span data-i18n="get-plus-weird-max2"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-5" /> <span data-i18n="get-move-harrier"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-6" /> <span data-i18n="get-move-harrier"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-7" /> <span data-i18n="establish-following-devotion"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-8" /> <span data-i18n="establish-refuge"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-9" /> <span data-i18n="get-move-other"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-10" /> <span data-i18n="get-move-other"></span></label></li>
+                        <li><hr></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="phase2-add-improvements"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-11" /> <span data-i18n="get-plus-stat-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-12" /> <span data-i18n="get-plus-stat-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-13" /> <span data-i18n="unlock-gamechanger"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-14" /> <span data-i18n="second-char"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_harrier-improvement-15" /> <span data-i18n="retire-char-safety"></span></label></li>
+                    </ul>
+                </div>
                 <div class="sheet-medic" style="padding-left: 20px;">
                     <ul>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_medic-improvement-1" /> <span data-i18n="get-plus-sharp-max3">Get +1Sharp (max Sharp+3).</span></label></li>
@@ -296,6 +350,27 @@
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_monarch-improvement-15" /> <span data-i18n="retire-char-safety">Retire your character to safety.</span></label></li>
                     </ul>
                 </div>
+                <div class="sheet-no-one">
+                    <ul>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-1" /> <span data-i18n="get-plus-aggro-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-2" /> <span data-i18n="get-plus-cool-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-3" /> <span data-i18n="get-plus-sharp-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-4" /> <span data-i18n="get-plus-weird-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-5" /> <span data-i18n="rediscover-weapons"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-6" /> <span data-i18n="rediscover-valuables"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-7" /> <span data-i18n="rediscover-potential"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-8" /> <span data-i18n="rediscover-beauty"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-9" /> <span data-i18n="get-move-other"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-10" /> <span data-i18n="get-move-other"></span></label></li>
+                        <li><hr></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="phase2-add-improvements"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-11" /> <span data-i18n="get-plus-stat-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-12" /> <span data-i18n="get-plus-stat-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-13" /> <span data-i18n="unlock-gamechanger"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-14" /> <span data-i18n="second-char"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_no-one-improvement-15" /> <span data-i18n="retire-char-safety"></span></label></li>
+                    </ul>
+                </div>
                 <div class="sheet-operator">
                     <ul>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_operator-improvement-1" /> <span data-i18n="get-plus-cool-max3">Get +1Cool (max Cool+3).</span></label></li>
@@ -317,6 +392,27 @@
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_operator-improvement-15" /> <span data-i18n="retire-char-safety">Retire your character to safety.</span></label></li>
                     </ul>
                 </div>
+                <div class="sheet-restless">
+                    <ul>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-1" /> <span data-i18n="get-plus-aggro-max2"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-2" /> <span data-i18n="get-plus-hard-max2"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-3" /> <span data-i18n="get-plus-sharp-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-4" /> <span data-i18n="get-plus-weird-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-5" /> <span data-i18n="get-move-restless"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-6" /> <span data-i18n="get-move-restless"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-7" /> <span data-i18n="get-another-dog"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-8" /> <span data-i18n="get-ports-of-call"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-9" /> <span data-i18n="get-move-other"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-10" /> <span data-i18n="get-move-other"></span></label></li>
+                        <li><hr></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="phase2-add-improvements"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-11" /> <span data-i18n="get-plus-stat-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-12" /> <span data-i18n="get-plus-stat-max3"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-13" /> <span data-i18n="unlock-gamechanger"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-14" /> <span data-i18n="second-char"></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_restless-improvement-15" /> <span data-i18n="retire-char-safety"></span></label></li>
+                    </ul>
+                </div>
                 <div class="sheet-undaunted">
                     <ul>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-1" /> <span data-i18n="get-plus-aggro-max3">get +1Aggro (max Aggro+3)</span></label></li>
@@ -324,9 +420,9 @@
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-3" /> <span data-i18n="get-plus-sharp-max2">get +1Sharp (max Sharp+2)</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-4" /> <span data-i18n="get-move-undaunted">Get a new Undaunted move.</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-5" /> <span data-i18n="get-move-undaunted">Get a new Undaunted move.</span></label></li>
-                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-6" /> <span data-i18n="establish-following-devotion">Establish a <strong>following</strong> and get <strong>devotion</strong>.</span></label></li>
-                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-7" /> <span data-i18n="establish-gang-leadership">Establish a <strong>gang</strong> and get <strong>leadership</strong></span>.</label></li>
-                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-8" /> <span data-i18n="establish-holding-wealth">Establish a <strong>holding</strong> and get <strong>wealth</strong></span>.</label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-6" /> <span data-i18n="establish-following-devotion">Establish a <strong>following</strong> and get <strong>devotion</strong></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-7" /> <span data-i18n="establish-gang-leadership">Establish a <strong>gang</strong> and get <strong>leadership</strong></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-8" /> <span data-i18n="establish-holding-wealth">Establish a <strong>holding</strong> and get <strong>wealth</strong></span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-9" /> <span data-i18n="get-move-other">Get a move from an unused playbook.</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_undaunted-improvement-10" /> <span data-i18n="get-move-other">Get a move from an unused playbook.</span></label></li>
                         <li><hr></li>
@@ -346,8 +442,8 @@
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-4" /> <span data-i18n="get-plus-hard-max2">Get +1Hard (max Hard+2).</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-5" /> <span data-i18n="get-move-vigilant">Get a new Vigilant move.</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-6" /> <span data-i18n="get-move-vigilant">Get a new Vigilant move.</span></label></li>
-                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-7" /> <span data-i18n="establish-following-devotion">Establish a <strong>following</strong> and get <strong>devotion</strong>.</span></label></li>
-                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-8" /> <span data-i18n="establish-gang-leadership">Establish a <strong>gang</strong> and get <strong>leadership</strong></span>.</label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-7" /> <span data-i18n="establish-following-devotion">Establish a <strong>following</strong> and get <strong>devotion</strong></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-8" /> <span data-i18n="establish-gang-leadership">Establish a <strong>gang</strong> and get <strong>leadership</strong></span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-9" /> <span data-i18n="get-move-other">Get a move from an unused playbook.</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_vigilant-improvement-10" /> <span data-i18n="get-move-other">Get a move from an unused playbook.</span></label></li>
                         <li><hr></li>
@@ -367,8 +463,8 @@
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-4" /> <span data-i18n="get-plus-sharp-max2">get +1Sharp (max Sharp+2)</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-5" /> <span data-i18n="get-move-volatile">Get a new Volatile move.</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-6" /> <span data-i18n="get-move-volatile">Get a new Volatile move.</span></label></li>
-                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-7" /> <span data-i18n="establish-gang-leadership">Establish a <strong>gang</strong> and get <strong>leadership</strong></span>.</label></li>
-                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-8" /> <span data-i18n="establish-holding-wealth">Establish a <strong>holding</strong> and get <strong>wealth</strong></span>.</label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-7" /> <span data-i18n="establish-gang-leadership">Establish a <strong>gang</strong> and get <strong>leadership</strong></span></label></li>
+                        <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-8" /> <span data-i18n="establish-holding-wealth">Establish a <strong>holding</strong> and get <strong>wealth</strong></span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-9" /> <span data-i18n="get-move-other">Get a move from an unused playbook.</span></label></li>
                         <li><label class="sheet-improvement"><input type="checkbox" name="attr_volatile-improvement-10" /> <span data-i18n="get-move-other">Get a move from an unused playbook.</span></label></li>
                         <li><hr></li>
@@ -425,12 +521,16 @@
 
             <div class="sheet-attr-box" name="scavenge-selection">
                 <!-- Class Selected -->
+                <input type="checkbox" name="attr_class" class="sheet-isBloodhound" value='Bloodhound' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isBrain-Picker" value='Brain-Picker' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isGearcutter" value='Gearcutter' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isLawmaker" value='Lawmaker' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isHarrier" value='Harrier' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isMedic" value='Medic' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isMonarch" value='Monarch' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isNoOne" value='No One' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isOperator" value='Operator' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isRestless" value='Restless' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isUndaunted" value='Undaunted' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isVigilant" value='Vigilant' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isVolatile" value='Volatile' style="display: none;" />
@@ -439,6 +539,12 @@
 
                 <label class="sheet-other sheet-section-title"><span data-i18n="scavenge">Scavenge</span>:</label>
                 <label class="sheet-smallfont"><span data-i18n="choose1"></span></label>
+                <div class="sheet-bloodhound">
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-bloodhound" value="bloodhound-1" /> <span data-i18n="scavenge-bloodhound-1"></span></label>
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-bloodhound" value="bloodhound-2" /> <span data-i18n="scavenge-bloodhound-2"></span></label>
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-bloodhound" value="bloodhound-other" /> <span data-i18n="scavenge-other"></span></label>
+                    <textarea class="sheet-free-form-text"></textarea>
+                </div>
                 <div class="sheet-brain-picker">
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-brain-picker" value="brain-picker-1" /> <span data-i18n="scavenge-brain-picker-1"></span></label>
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-brain-picker" value="brain-picker-2"/> <span data-i18n="scavenge-brain-picker-2"></span></label>
@@ -449,6 +555,12 @@
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-gearcutter" value="gearcutter-1" /> <span data-i18n="scavenge-gearcutter-1"></span></label>
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-gearcutter" value="gearcutter-2" /> <span data-i18n="scavenge-gearcutter-2"></span></label>
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-gearcutter" value="gearcutter-other" /> <span data-i18n="scavenge-other"></span></label>
+                    <textarea class="sheet-free-form-text"></textarea>
+                </div>
+                <div class="sheet-harrier">
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-harrier" value="harrier-1" /> <span data-i18n="scavenge-harrier-1"></span></label>
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-harrier" value="harrier-2" /> <span data-i18n="scavenge-harrier-2"></span></label>
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-harrier" value="harrier-other" /> <span data-i18n="scavenge-other"></span></label>
                     <textarea class="sheet-free-form-text"></textarea>
                 </div>
                 <div class="sheet-lawmaker">
@@ -469,10 +581,21 @@
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-monarch" value="monarch-other" /> <span data-i18n="scavenge-other"></span></label>
                     <textarea class="sheet-free-form-text"></textarea>
                 </div>
+                <div class="sheet-no-one">
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-no-one" value="no-one-1" /> <span data-i18n="scavenge-no-one-1"></span></label>
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-no-one" value="no-one-other" /> <span data-i18n="scavenge-other"></span></label>
+                    <textarea class="sheet-free-form-text"></textarea>
+                </div>
                 <div class="sheet-operator">
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-operator" value="operator-1" /> <span data-i18n="scavenge-operator-1"></span></label>
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-operator" value="operator-2" /> <span data-i18n="scavenge-operator-2"></span></label>
                     <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-operator" value="operator-other" /> <span data-i18n="scavenge-other"></span></label>
+                    <textarea class="sheet-free-form-text"></textarea>
+                </div>
+                <div class="sheet-restless">
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-restless" value="restless-1" /> <span data-i18n="scavenge-restless-1"></span></label>
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-restless" value="restless-2" /> <span data-i18n="scavenge-restless-2"></span></label>
+                    <label class="sheet-smallfont"><input type="radio" name="attr_scavenge-restless" value="restless-other" /> <span data-i18n="scavenge-other"></span></label>
                     <textarea class="sheet-free-form-text"></textarea>
                 </div>
                 <div class="sheet-undaunted">
@@ -564,17 +687,286 @@
             <label class="sheet-other sheet-section-title"><span data-i18n="gear"></span></label>
             <div class="sheet-box">
                 <!-- Class Selected -->
+                <input type="checkbox" name="attr_class" class="sheet-isBloodhound" value='Bloodhound' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isBrain-Picker" value='Brain-Picker' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isGearcutter" value='Gearcutter' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isLawmaker" value='Lawmaker' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isHarrier" value='Harrier' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isMedic" value='Medic' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isMonarch" value='Monarch' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isNoOne" value='No One' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isOperator" value='Operator' style="display: none;" />
+                <input type="checkbox" name="attr_class" class="sheet-isRestless" value='Restless' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isUndaunted" value='Undaunted' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isVigilant" value='Vigilant' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isVolatile" value='Volatile' style="display: none;" />
                 <input type="checkbox" name="attr_class" class="sheet-isWeaponized" value='Weaponized' style="display: none;" />
                 <!-- End Class Selected -->
+
+                <!-- Begin Bloodhound Custom Section-->
+                <div class="sheet-bloodhound">
+                    <label class="sheet-other"><span data-i18n="clothing-living-incidentals"></span></label><br/>
+                    <textarea class="sheet-free-form-text" name="attr_bloodhound-clothing-living-incidentals"></textarea>
+                    <label class="sheet-other"><span data-i18n="other"></span></label><br/>
+                    <textarea class="sheet-free-form-text" name="attr_bloodhound-gear-other"></textarea>
+                    <label class="sheet-other sheet-section-title"><span data-i18n="mysteries"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="mysteries-descr-1"></span></label>
+                    <ul>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-1"></span></label><br/>
+                            <select name="attr_mystery-1-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-1-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-2"></span></label><br/>
+                            <select name="attr_mystery-2-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-2-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-3"></span></label><br/>
+                            <select name="attr_mystery-3-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-3-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-4"></span></label><br/>
+                            <select name="attr_mystery-4-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-4-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-5"></span></label><br/>
+                            <select name="attr_mystery-5-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-5-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-6"></span></label><br/>
+                            <select name="attr_mystery-6-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-6-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-7"></span></label><br/>
+                            <select name="attr_mystery-7-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-7-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-8"></span></label><br/>
+                            <select name="attr_mystery-8-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-8-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-9"></span></label><br/>
+                            <select name="attr_mystery-9-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-9-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-10"></span></label><br/>
+                            <select name="attr_mystery-10-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-10-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-11"></span></label><br/>
+                            <select name="attr_mystery-11-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-11-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-12"></span></label><br/>
+                            <select name="attr_mystery-12-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-12-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-13"></span></label><br/>
+                            <select name="attr_mystery-13-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-13-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-14"></span></label><br/>
+                            <select name="attr_mystery-14-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-14-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><span data-i18n="mystery-15"></span></label><br/>
+                            <select name="attr_mystery-15-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-15-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><textarea class="sheet-free-form-text" placeholder="custom mystery" name="attr_custom-mystery-1"></textarea></label><br/>
+                            <select name="attr_mystery-16-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-16-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><textarea class="sheet-free-form-text" placeholder="custom mystery" name="attr_custom-mystery-2"></textarea></label><br/>
+                            <select name="attr_mystery-17-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-17-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                        <li>
+                            <label class="sheet-improvement"><textarea class="sheet-free-form-text" placeholder="custom mystery" name="attr_custom-mystery-3"></textarea></label><br/>
+                            <select name="attr_mystery-18-believe">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="mystery-believe"></option>
+                                <option data-i18n="mystery-dont-believe"></option>
+                            </select>
+                            <select name="attr_mystery-18-true-false">
+                                <option data-i18n="-"></option>
+                                <option data-i18n="true"></option>
+                                <option data-i18n="false"></option>
+                            </select>
+                            <hr/>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Bloodhound Custom Section-->      
 
                 <!-- Begin Brain-picker Custom Section-->
                 <div class="sheet-brain-picker">
@@ -704,7 +1096,89 @@
                     <label class="sheet-other sheet-section-title"><span data-i18n="gang">Gang</span></label><br/>
                     <input type="text" placeholder="Gang name" name="attr_holding-gang"/>
                 </div>
-                <!-- End Medic Custom Section-->
+                <!-- End Lawmaker Custom Section-->
+                <!-- Begin Harrier Custom Section-->
+                <div class="sheet-harrier">
+                    <label class="sheet-other"><span data-i18n="birds-descr-your-gear"></span></label><br/>
+                    <label class="sheet-other"><span data-i18n="clothing-living-incidentals"></span></label><br/>
+                    <textarea class="sheet-free-form-text" name="attr_harrier-clothing-living-incidentals"></textarea>
+                    <label class="sheet-other"><span data-i18n="other"></span></label><br/>
+                    <textarea class="sheet-free-form-text" name="attr_harrier-gear-other"></textarea>
+                    <label class="sheet-other sheet-section-title"><span data-i18n="birds"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="birds-descr-1"></span></label><br/>
+                    <ul>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-description" value="birds-description-1"/> <span data-i18n="birds-description-choice-1"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-description" value="birds-description-2"/> <span data-i18n="birds-description-choice-2"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-description" value="birds-description-3"/> <span data-i18n="birds-description-choice-3"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-description" value="birds-description-4"/> <span data-i18n="birds-description-choice-4"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-description" value="birds-description-5"/> <span data-i18n="birds-description-choice-5"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-description" value="birds-description-6"/> <span data-i18n="birds-description-choice-6"></span></label></li>
+                    </ul>
+                    <label class="sheet-improvement"><span data-i18n="birds-descr-2"></span></label>
+                    <select name="attr_birds-count">
+                        <option data-i18n="6"></option>
+                        <option data-i18n="7"></option>
+                        <option data-i18n="8"></option>
+                        <option data-i18n="9"></option>
+                    </select>
+                    <label class="sheet-smallfont"><span data-i18n="birds-name-1"></span></label>
+                    <input type="text" name="attr_birds-name-1" placeholder="Bird's name">
+                    <label class="sheet-smallfont"><span data-i18n="birds-name-2"></span></label>
+                    <input type="text" name="attr_birds-name-2" placeholder="Bird's name">
+                    <label class="sheet-smallfont"><span data-i18n="birds-name-3"></span></label>
+                    <input type="text" name="attr_birds-name-3" placeholder="Bird's name">
+                    <label class="sheet-improvement"><span data-i18n="birds-descr-3"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="birds-descr-4"></span></label><br/>
+                    <ul>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-wings" value="birds-wings-1"/> <span data-i18n="birds-wings-1"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-wings" value="birds-wings-2"/> <span data-i18n="birds-wings-2"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-wings" value="birds-wings-3"/> <span data-i18n="birds-wings-3"></span></label></li>
+                    </ul>
+                    <label class="sheet-improvement"><span data-i18n="birds-descr-5"></span></label><br/>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-1"/> <span data-i18n="birds-wings-description-1"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-2"/> <span data-i18n="birds-wings-description-2"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-3"/> <span data-i18n="birds-wings-description-3"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-4"/> <span data-i18n="birds-wings-description-4"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-5"/> <span data-i18n="birds-wings-description-5"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-6"/> <span data-i18n="birds-wings-description-6"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-7"/> <span data-i18n="birds-wings-description-7"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-8"/> <span data-i18n="birds-wings-description-8"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-9"/> <span data-i18n="birds-wings-description-9"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-10"/> <span data-i18n="birds-wings-description-10"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-11"/> <span data-i18n="birds-wings-description-11"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-12"/> <span data-i18n="birds-wings-description-12"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-13"/> <span data-i18n="birds-wings-description-13"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-14"/> <span data-i18n="birds-wings-description-14"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-15"/> <span data-i18n="birds-wings-description-15"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-16"/> <span data-i18n="birds-wings-description-16"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-17"/> <span data-i18n="birds-wings-description-17"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-18"/> <span data-i18n="birds-wings-description-18"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-19"/> <span data-i18n="birds-wings-description-19"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_birds-wings-description-20"/> <span data-i18n="birds-wings-description-20"></span></label>
+                    <br/>
+                    <label class="sheet-smallfont"><span data-i18n="birds-descr-6"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="birds-descr-7"></span></label>
+                    <ul>
+                        <li><label class="sheet-smallfont"><span data-i18n="birds-weapons-and-armor-1"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="birds-weapons-and-armor-2"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="birds-weapons-and-armor-3"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="birds-weapons-and-armor-4"></span></label></li>
+                    </ul>
+                    <label class="sheet-improvement"><span data-i18n="birds-descr-8"></span></label>
+                    <ul>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-cult" value="birds-cult-1"/> <span data-i18n="birds-cult-1"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-cult" value="birds-cult-2"/> <span data-i18n="birds-cult-2"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-cult" value="birds-cult-3"/> <span data-i18n="birds-cult-3"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-cult" value="birds-cult-4"/> <span data-i18n="birds-cult-4"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-cult" value="birds-cult-5"/> <span data-i18n="birds-cult-5"></span></label></li>
+                        <li><label class="sheet-smallfont"><input type="radio" name="attr_birds-cult" value="birds-cult-6"/> <span data-i18n="birds-cult-6"></span></label></li>
+                    </ul>
+                    <label class="sheet-other sheet-section-title"><span data-i18n="gang"></span></label><br/>
+                    <input type="text" placeholder="Gang name" name="attr_harrier-gang-name"/>
+                    <br/><br/>
+                    <label class="sheet-improvement"><span data-i18n="birds-descr-9"></span></label><br/>
+                </div>
+                <!-- End Harrier Custom Section-->
                 <!-- Begin Medic Custom Section-->
                 <div class="sheet-medic">
                     <label class="sheet-other"><span data-i18n="weapons-defensive"></span></label><br/>
@@ -723,14 +1197,14 @@
                             <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-1" /> <span data-i18n="refuge-option-1"></span></label></li>
                             <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-2" /> <span data-i18n="refuge-option-2"></span></label></li>
                             <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-3" /> <span data-i18n="refuge-option-3"></span></label></li>
-                            <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-4" /> <span data-i18n="refuge-option-4"></span></label><input type="text" placeholder="ghosts/life/gods" name="attr_refuge-option-4-choice"/></li><br/>
-                            <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-5" /> <span data-i18n="refuge-option-5"></span></label></li>
+                            <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-4" /> <span data-i18n="refuge-option-4"></span></label></li><br/>
+                            <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-5" /> <span data-i18n="refuge-option-5"></span></label><input type="text" placeholder="ghosts/life/gods" name="attr_refuge-option-5-choice"/></li>
                             <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-6" /> <span data-i18n="refuge-option-6"></span></label></li>
                             <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-7" /> <span data-i18n="refuge-option-7"></span></label></li>
                             <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-8" /> <span data-i18n="refuge-option-8"></span></label></li>
                             <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-9" /> <span data-i18n="refuge-option-9"></span></label></li>
                             <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-10" /> <span data-i18n="refuge-option-10"></span></label><input type="textarea" class="sheet-free-form-text" placeholder="skilled assistants details" name="attr_refuge-option-10-choice"/></li><br/>
-                            <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-10" /> <span data-i18n="refuge-option-11"></span></label><input type="text" placeholder="caretaker" name="attr_refuge-option-11-choice"/></li><br/>
+                            <li><label class="sheet-improvement"><input type="checkbox" name="attr_refuge-option-11" /> <span data-i18n="refuge-option-11"></span></label><input type="text" placeholder="caretaker" name="attr_refuge-option-11-choice"/></li><br/>
                         </ul>
                 </div>
                 <!-- End Medic Custom Section-->
@@ -763,6 +1237,54 @@
                         </ul>
                 </div>
                 <!-- End Monarch Custom Section-->
+                <!-- Begin No One Custom Section-->
+                <div class="sheet-no-one">
+                    <label class="sheet-other"><span data-i18n="weapons-scrounged"></span></label><br/>
+                    <ul class="inline">
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-scrounged-1" /> <span data-i18n="weapon-scrounged-1"></span></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-scrounged-2" /> <span data-i18n="weapon-scrounged-2"></span></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-scrounged-3" /> <span data-i18n="weapon-scrounged-3"></span></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-scrounged-4" /> <span data-i18n="weapon-scrounged-4"></span></label></li>
+                    </ul>
+                    <label class="sheet-other"><span data-i18n="clothing-living-incidentals"></span></label><br/>
+                    <textarea class="sheet-free-form-text" name="attr_no-one-clothing-living-incidentals"></textarea>
+                    <label class="sheet-other"><span data-i18n="other"></span></label><br/>
+                    <textarea class="sheet-free-form-text" name="attr_no-one-gear-other"></textarea>
+                    <label class="sheet-other sheet-section-title"><span data-i18n="visions"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="visions-descr-1"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="visions-descr-2"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="places"></span></label>
+                    <ul>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-places-1"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-places-2"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-places-3"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-places-4"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-places-5"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-places-6"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-places-7"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-places-8"></span></label></li>
+                    </ul>
+                    <label class="sheet-improvement"><span data-i18n="people"></span></label>
+                    <ul>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-1"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-2"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-3"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-4"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-5"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-6"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-7"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-8"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-9"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-10"></span></label></li>
+                        <li><label class="sheet-smallfont"><span data-i18n="visions-people-11"></span></label></li>
+                    </ul>
+                    <label class="sheet-other"><span data-i18n="rediscoveries"></span></label><br/>
+                    <label class="sheet-improvement"><input type="checkbox" name="attr_rediscovery-1" /> <span data-i18n="rediscovery-1"></span></label><br/>
+                    <label class="sheet-improvement"><input type="checkbox" name="attr_rediscovery-2" /> <span data-i18n="rediscovery-2"></span></label><br/>
+                    <label class="sheet-improvement"><input type="checkbox" name="attr_rediscovery-3" /> <span data-i18n="rediscovery-3"></span></label><br/>
+                    <label class="sheet-improvement"><input type="checkbox" name="attr_rediscovery-4" /> <span data-i18n="rediscovery-4"></span></label><br/>
+                </div>
+                <!-- End No One Custom Section-->
                 <!-- Begin Operator Custom Section-->
                     <div class="sheet-operator">
                         <label class="sheet-other"><span data-i18n="weapons-handy"></span></label><br/>
@@ -781,9 +1303,9 @@
                         <text></text>
                         <label class="sheet-improvement"><span data-i18n="choose1"></span></label>
                         <ul>
-                            <li><label class="sheet-improvement"><input type="radio" name="attr_your-vehicle-option" name="vehicle-option-1"/> <span data-i18n="your-vehicle-option-1"></span></label></li>
-                            <li><label class="sheet-improvement"><input type="radio" name="attr_your-vehicle-option" name="vehicle-option-2"/> <span data-i18n="your-vehicle-option-2"></span></label></li>
-                            <li><label class="sheet-improvement"><input type="radio" name="attr_your-vehicle-option" name="vehicle-option-3"/> <span data-i18n="your-vehicle-option-3"></span></label></li>
+                            <li><label class="sheet-improvement"><input type="radio" name="attr_your-vehicle-option" value="vehicle-option-1"/> <span data-i18n="your-vehicle-option-1"></span></label></li>
+                            <li><label class="sheet-improvement"><input type="radio" name="attr_your-vehicle-option" value="vehicle-option-2"/> <span data-i18n="your-vehicle-option-2"></span></label></li>
+                            <li><label class="sheet-improvement"><input type="radio" name="attr_your-vehicle-option" value="vehicle-option-3"/> <span data-i18n="your-vehicle-option-3"></span></label></li>
                         </ul>
                         <label class="sheet-improvement"><span data-i18n="vehicle-named"></span></label>
                         <input type="text" placeholder="Vehicle name" name="attr_your-vehicle-name"/><br/>
@@ -834,6 +1356,58 @@
                         </ul>
                     </div>
                 <!-- End Operator Custom Section-->
+                <!-- Begin Restless Custom Section-->
+                <div class="sheet-restless">
+                    <label class="sheet-other"><span data-i18n="weapons-survival"></span></label><br/>
+                    <ul class="inline">
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-survival-1" value="1"/> <span data-i18n="weapon-survival-1"></span></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-survival-2"/> <span data-i18n="weapon-survival-2"></span><input type="checkbox" name="attr_weapon-survival-2-usage-1"><input type="checkbox" name="attr_weapon-survival-2-usage-2"><input type="checkbox" name="attr_weapon-survival-2-usage-3"></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-survival-3"/> <span data-i18n="weapon-survival-3"></span></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-survival-4"/> <span data-i18n="weapon-survival-4"></span></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-survival-5"/> <span data-i18n="weapon-survival-5"></span></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-survival-6"/> <span data-i18n="weapon-survival-6"></span><input type="checkbox" name="attr_weapon-survival-6-usage-1"><input type="checkbox" name="attr_weapon-survival-6-usage-2"><input type="checkbox" name="attr_weapon-survival-6-usage-3"></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-survival-7"/> <span data-i18n="weapon-survival-7"></span><input type="checkbox" name="attr_weapon-survival-7-usage-1"><input type="checkbox" name="attr_weapon-survival-7-usage-2"><input type="checkbox" name="attr_weapon-survival-7-usage-3"></label></li>
+                        <li class="inline"><label class="sheet-improvement"><input type="checkbox" name="attr_weapon-survival-8"/> <span data-i18n="weapon-survival-8"></span></label></li>
+                    </ul>
+                    <label class="sheet-other"><span data-i18n="clothing-living-incidentals"></span></label><br/>
+                    <textarea class="sheet-free-form-text" name="attr_restless-clothing-living-incidentals"></textarea>
+                    <label class="sheet-other"><span data-i18n="other"></span></label><br/>
+                    <textarea class="sheet-free-form-text" name="attr_restless-gear-other"></textarea>
+                    
+                    <label class="sheet-other sheet-section-title"><span data-i18n="dog"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="dog-descr-1"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="dog-name"></span></label>
+                    <input type="text" name="attr_your-dog-name" placeholder="Dog's name"><br/>
+                    <label class="sheet-improvement"><span data-i18n="dog-impression-descr"></span></label><br/>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-1"/> <span data-i18n="dog-impression-1"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-2"/> <span data-i18n="dog-impression-2"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-3"/> <span data-i18n="dog-impression-3"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-4"/> <span data-i18n="dog-impression-4"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-5"/> <span data-i18n="dog-impression-5"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-6"/> <span data-i18n="dog-impression-6"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-7"/> <span data-i18n="dog-impression-7"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-8"/> <span data-i18n="dog-impression-8"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-9"/> <span data-i18n="dog-impression-9"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-10"/> <span data-i18n="dog-impression-10"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-11"/> <span data-i18n="dog-impression-11"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-12"/> <span data-i18n="dog-impression-12"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-13"/> <span data-i18n="dog-impression-13"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-14"/> <span data-i18n="dog-impression-14"></span></label>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-15"/> <span data-i18n="dog-impression-15"></span></label><br/>
+                    <label class="sheet-smallfont"><input type="checkbox" name="attr_dog-impression-16"/> <span data-i18n="dog-impression-16"></span></label><input type="text" name="attr_dog-descr-other" placeholder="other descriptor"><br/>
+                    <label class="sheet-improvement"><span data-i18n="dog-descr-2"></span></label>
+                    <ul>
+                        <li><label class="sheet-improvement"><span data-i18n="dog-move-1"></span></label></li>
+                        <li><label class="sheet-improvement"><span data-i18n="dog-move-2"></span></label></li>
+                        <li><label class="sheet-improvement"><span data-i18n="dog-move-3"></span></label></li>
+                        <li><label class="sheet-improvement"><span data-i18n="dog-move-4"></span></label></li>
+                        <li><label class="sheet-improvement"><span data-i18n="dog-move-5"></span></label></li>
+                        <li><label class="sheet-improvement"><span data-i18n="dog-move-6"></span></label></li>
+                        <li><label class="sheet-improvement"><span data-i18n="dog-move-7"></span></label></li>
+                        <li><label class="sheet-improvement"><span data-i18n="dog-move-8"></span></label></li>
+                    </ul>
+                </div>
+                <!-- End Restless Custom Section-->
                 <!-- Begin Undaunted Custom Section-->
                 <div class="sheet-undaunted">
                     <label class="sheet-other"><span data-i18n="weapons-potenial-at-hand"></span></label><br/>
@@ -944,7 +1518,7 @@
                     <label class="sheet-other"><span data-i18n="other"></span></label><br/>
                     <textarea class="sheet-free-form-text" name="attr_vigilant-gear-other"></textarea>
                     <label class="sheet-other sheet-section-title"><span data-i18n="wolves-maelstrom"></span></label><br/>
-                    <label class="sheet-improvement"></label><span data-i18n="wolves-descr-1"></span></label><br/>
+                    <label class="sheet-improvement"><span data-i18n="wolves-descr-1"></span></label><br/>
                     <label class="sheet-improvement"><span data-i18n="wolves-descr-2"></span></label>
                     <ul>
                         <li class="inline"><label class="sheet-improvement"><input type="radio" name="attr_wolves-disguise" value="attr_wolves-disguise-1" /> <span data-i18n="wolves-disguise-1"></span></label></li>
